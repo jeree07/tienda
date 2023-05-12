@@ -1,0 +1,268 @@
+2023-05-08T22:47:17+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\tienda\wp-includes\Requests\src\Transport\Curl.php en la línea 510
+
+2023-05-08T22:47:39+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php:221
+Stack trace:
+#0 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php(187): vw_bakery_min_max(NULL, NULL, 240, 240, 50, 48)
+#1 C:\xampp\htdocs\tienda\wp-includes\class-wp-hook.php(310): vw_bakery_customize_logo_resize('<a href="http:/...')
+#2 C:\xampp\htdocs\tienda\wp-includes\plugin.php(205): WP_Hook->apply_filters('<a href="http:/...', Array)
+#3 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1138): apply_filters('get_custom_logo', '<a href="http:/...', 0)
+#4 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1149): get_custom_logo(0)
+#5 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\template-parts\header\header-top.php(50): the_custom_logo()
+#6 C:\xampp\htdocs\tienda\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tienda\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#8 C:\xampp\htdocs\tienda\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#9 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\header.php(57): get_template_part('template-parts/...')
+#10 C:\xampp\htdocs\tienda\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\tienda\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#12 C:\xampp\htdocs\tienda\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#13 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\page.php(13): get_header()
+#14 C:\xampp\htdocs\tienda\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\tienda\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\tienda\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php en la línea 221
+
+2023-05-08T22:48:16+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php:221
+Stack trace:
+#0 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php(187): vw_bakery_min_max(NULL, NULL, 240, 240, 50, 48)
+#1 C:\xampp\htdocs\tienda\wp-includes\class-wp-hook.php(310): vw_bakery_customize_logo_resize('<a href="http:/...')
+#2 C:\xampp\htdocs\tienda\wp-includes\plugin.php(205): WP_Hook->apply_filters('<a href="http:/...', Array)
+#3 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1138): apply_filters('get_custom_logo', '<a href="http:/...', 0)
+#4 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1149): get_custom_logo(0)
+#5 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\template-parts\header\header-top.php(50): the_custom_logo()
+#6 C:\xampp\htdocs\tienda\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tienda\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#8 C:\xampp\htdocs\tienda\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#9 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\header.php(57): get_template_part('template-parts/...')
+#10 C:\xampp\htdocs\tienda\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\tienda\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#12 C:\xampp\htdocs\tienda\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#13 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\page.php(13): get_header()
+#14 C:\xampp\htdocs\tienda\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\tienda\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\tienda\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php en la línea 221
+
+2023-05-08T22:49:44+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php:221
+Stack trace:
+#0 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php(187): vw_bakery_min_max(NULL, NULL, 240, 240, 50, 48)
+#1 C:\xampp\htdocs\tienda\wp-includes\class-wp-hook.php(310): vw_bakery_customize_logo_resize('<a href="http:/...')
+#2 C:\xampp\htdocs\tienda\wp-includes\plugin.php(205): WP_Hook->apply_filters('<a href="http:/...', Array)
+#3 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1138): apply_filters('get_custom_logo', '<a href="http:/...', 0)
+#4 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1149): get_custom_logo(0)
+#5 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\template-parts\header\header-top.php(50): the_custom_logo()
+#6 C:\xampp\htdocs\tienda\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tienda\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#8 C:\xampp\htdocs\tienda\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#9 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\header.php(57): get_template_part('template-parts/...')
+#10 C:\xampp\htdocs\tienda\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\tienda\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#12 C:\xampp\htdocs\tienda\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#13 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\page.php(13): get_header()
+#14 C:\xampp\htdocs\tienda\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\tienda\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\tienda\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php en la línea 221
+
+2023-05-08T22:50:36+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php:221
+Stack trace:
+#0 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php(187): vw_bakery_min_max(NULL, NULL, 240, 240, 50, 48)
+#1 C:\xampp\htdocs\tienda\wp-includes\class-wp-hook.php(310): vw_bakery_customize_logo_resize('<a href="http:/...')
+#2 C:\xampp\htdocs\tienda\wp-includes\plugin.php(205): WP_Hook->apply_filters('<a href="http:/...', Array)
+#3 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1138): apply_filters('get_custom_logo', '<a href="http:/...', 0)
+#4 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1149): get_custom_logo(0)
+#5 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\template-parts\header\header-top.php(50): the_custom_logo()
+#6 C:\xampp\htdocs\tienda\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tienda\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#8 C:\xampp\htdocs\tienda\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#9 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\header.php(57): get_template_part('template-parts/...')
+#10 C:\xampp\htdocs\tienda\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\tienda\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#12 C:\xampp\htdocs\tienda\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#13 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\page.php(13): get_header()
+#14 C:\xampp\htdocs\tienda\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\tienda\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\tienda\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php en la línea 221
+
+2023-05-08T22:52:00+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\tienda\wp-includes\Requests\src\Transport\Curl.php en la línea 205
+
+2023-05-08T22:52:59+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php:221
+Stack trace:
+#0 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php(187): vw_bakery_min_max(NULL, NULL, 240, 240, 50, 48)
+#1 C:\xampp\htdocs\tienda\wp-includes\class-wp-hook.php(310): vw_bakery_customize_logo_resize('<a href="http:/...')
+#2 C:\xampp\htdocs\tienda\wp-includes\plugin.php(205): WP_Hook->apply_filters('<a href="http:/...', Array)
+#3 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1138): apply_filters('get_custom_logo', '<a href="http:/...', 0)
+#4 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1149): get_custom_logo(0)
+#5 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\template-parts\header\header-top.php(50): the_custom_logo()
+#6 C:\xampp\htdocs\tienda\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tienda\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#8 C:\xampp\htdocs\tienda\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#9 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\header.php(57): get_template_part('template-parts/...')
+#10 C:\xampp\htdocs\tienda\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\tienda\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#12 C:\xampp\htdocs\tienda\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#13 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\page.php(13): get_header()
+#14 C:\xampp\htdocs\tienda\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\tienda\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\tienda\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php en la línea 221
+
+2023-05-08T22:53:01+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php:221
+Stack trace:
+#0 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php(187): vw_bakery_min_max(NULL, NULL, 240, 240, 50, 48)
+#1 C:\xampp\htdocs\tienda\wp-includes\class-wp-hook.php(310): vw_bakery_customize_logo_resize('<a href="http:/...')
+#2 C:\xampp\htdocs\tienda\wp-includes\plugin.php(205): WP_Hook->apply_filters('<a href="http:/...', Array)
+#3 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1138): apply_filters('get_custom_logo', '<a href="http:/...', 0)
+#4 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1149): get_custom_logo(0)
+#5 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\template-parts\header\header-top.php(50): the_custom_logo()
+#6 C:\xampp\htdocs\tienda\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tienda\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#8 C:\xampp\htdocs\tienda\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#9 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\header.php(57): get_template_part('template-parts/...')
+#10 C:\xampp\htdocs\tienda\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\tienda\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#12 C:\xampp\htdocs\tienda\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#13 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\page.php(13): get_header()
+#14 C:\xampp\htdocs\tienda\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\tienda\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\tienda\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php en la línea 221
+
+2023-05-08T22:53:36+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php:221
+Stack trace:
+#0 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php(187): vw_bakery_min_max(NULL, NULL, 240, 240, 50, 48)
+#1 C:\xampp\htdocs\tienda\wp-includes\class-wp-hook.php(310): vw_bakery_customize_logo_resize('<a href="http:/...')
+#2 C:\xampp\htdocs\tienda\wp-includes\plugin.php(205): WP_Hook->apply_filters('<a href="http:/...', Array)
+#3 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1138): apply_filters('get_custom_logo', '<a href="http:/...', 0)
+#4 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1149): get_custom_logo(0)
+#5 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\template-parts\header\header-top.php(50): the_custom_logo()
+#6 C:\xampp\htdocs\tienda\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tienda\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#8 C:\xampp\htdocs\tienda\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#9 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\header.php(57): get_template_part('template-parts/...')
+#10 C:\xampp\htdocs\tienda\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\tienda\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#12 C:\xampp\htdocs\tienda\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#13 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\page.php(13): get_header()
+#14 C:\xampp\htdocs\tienda\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\tienda\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\tienda\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php en la línea 221
+
+2023-05-08T23:00:46+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php:221
+Stack trace:
+#0 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php(187): vw_bakery_min_max(NULL, NULL, 240, 240, 50, 48)
+#1 C:\xampp\htdocs\tienda\wp-includes\class-wp-hook.php(310): vw_bakery_customize_logo_resize('<a href="http:/...')
+#2 C:\xampp\htdocs\tienda\wp-includes\plugin.php(205): WP_Hook->apply_filters('<a href="http:/...', Array)
+#3 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1138): apply_filters('get_custom_logo', '<a href="http:/...', 0)
+#4 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1149): get_custom_logo(0)
+#5 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\template-parts\header\header-top.php(50): the_custom_logo()
+#6 C:\xampp\htdocs\tienda\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tienda\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#8 C:\xampp\htdocs\tienda\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#9 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\header.php(57): get_template_part('template-parts/...')
+#10 C:\xampp\htdocs\tienda\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\tienda\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#12 C:\xampp\htdocs\tienda\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#13 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\page.php(13): get_header()
+#14 C:\xampp\htdocs\tienda\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\tienda\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\tienda\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php en la línea 221
+
+2023-05-08T23:03:09+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php:221
+Stack trace:
+#0 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php(187): vw_bakery_min_max(NULL, NULL, 240, 240, 50, 48)
+#1 C:\xampp\htdocs\tienda\wp-includes\class-wp-hook.php(310): vw_bakery_customize_logo_resize('<a href="http:/...')
+#2 C:\xampp\htdocs\tienda\wp-includes\plugin.php(205): WP_Hook->apply_filters('<a href="http:/...', Array)
+#3 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1138): apply_filters('get_custom_logo', '<a href="http:/...', 0)
+#4 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1149): get_custom_logo(0)
+#5 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\template-parts\header\header-top.php(50): the_custom_logo()
+#6 C:\xampp\htdocs\tienda\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tienda\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#8 C:\xampp\htdocs\tienda\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#9 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\header.php(57): get_template_part('template-parts/...')
+#10 C:\xampp\htdocs\tienda\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\tienda\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#12 C:\xampp\htdocs\tienda\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#13 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\page.php(13): get_header()
+#14 C:\xampp\htdocs\tienda\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\tienda\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\tienda\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php en la línea 221
+
+2023-05-08T23:03:13+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php:221
+Stack trace:
+#0 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php(187): vw_bakery_min_max(NULL, NULL, 240, 240, 50, 48)
+#1 C:\xampp\htdocs\tienda\wp-includes\class-wp-hook.php(310): vw_bakery_customize_logo_resize('<a href="http:/...')
+#2 C:\xampp\htdocs\tienda\wp-includes\plugin.php(205): WP_Hook->apply_filters('<a href="http:/...', Array)
+#3 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1138): apply_filters('get_custom_logo', '<a href="http:/...', 0)
+#4 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1149): get_custom_logo(0)
+#5 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\template-parts\header\header-top.php(50): the_custom_logo()
+#6 C:\xampp\htdocs\tienda\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tienda\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#8 C:\xampp\htdocs\tienda\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#9 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\header.php(57): get_template_part('template-parts/...')
+#10 C:\xampp\htdocs\tienda\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\tienda\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#12 C:\xampp\htdocs\tienda\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#13 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\page.php(13): get_header()
+#14 C:\xampp\htdocs\tienda\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\tienda\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\tienda\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php en la línea 221
+
+2023-05-08T23:03:18+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php:221
+Stack trace:
+#0 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php(187): vw_bakery_min_max(NULL, NULL, 240, 240, 50, 48)
+#1 C:\xampp\htdocs\tienda\wp-includes\class-wp-hook.php(310): vw_bakery_customize_logo_resize('<a href="http:/...')
+#2 C:\xampp\htdocs\tienda\wp-includes\plugin.php(205): WP_Hook->apply_filters('<a href="http:/...', Array)
+#3 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1138): apply_filters('get_custom_logo', '<a href="http:/...', 0)
+#4 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1149): get_custom_logo(0)
+#5 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\template-parts\header\header-top.php(50): the_custom_logo()
+#6 C:\xampp\htdocs\tienda\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tienda\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#8 C:\xampp\htdocs\tienda\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#9 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\header.php(57): get_template_part('template-parts/...')
+#10 C:\xampp\htdocs\tienda\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\tienda\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#12 C:\xampp\htdocs\tienda\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#13 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\page.php(13): get_header()
+#14 C:\xampp\htdocs\tienda\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\tienda\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\tienda\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php en la línea 221
+
+2023-05-08T23:03:40+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php:221
+Stack trace:
+#0 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php(187): vw_bakery_min_max(NULL, NULL, 240, 240, 50, 48)
+#1 C:\xampp\htdocs\tienda\wp-includes\class-wp-hook.php(310): vw_bakery_customize_logo_resize('<a href="http:/...')
+#2 C:\xampp\htdocs\tienda\wp-includes\plugin.php(205): WP_Hook->apply_filters('<a href="http:/...', Array)
+#3 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1138): apply_filters('get_custom_logo', '<a href="http:/...', 0)
+#4 C:\xampp\htdocs\tienda\wp-includes\general-template.php(1149): get_custom_logo(0)
+#5 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\template-parts\header\header-top.php(50): the_custom_logo()
+#6 C:\xampp\htdocs\tienda\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tienda\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#8 C:\xampp\htdocs\tienda\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#9 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\header.php(57): get_template_part('template-parts/...')
+#10 C:\xampp\htdocs\tienda\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\tienda\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#12 C:\xampp\htdocs\tienda\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#13 C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\page.php(13): get_header()
+#14 C:\xampp\htdocs\tienda\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\tienda\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\tienda\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown en C:\xampp\htdocs\tienda\wp-content\themes\vw-bakery\inc\logo\logo-resizer.php en la línea 221
+
